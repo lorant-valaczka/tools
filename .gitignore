@@ -1,0 +1,7 @@
+# release files are built by scripts/package.py and attached to GitHub releases
+dist/
+
+# test runs and scratch work stay out of the repository
+*-workspace/
+__pycache__/
+.DS_Store

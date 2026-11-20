@@ -1,0 +1,16 @@
+{
+  "name": "tools-by-valaczka",
+  "owner": {
+    "name": "Lóránt"
+  },
+  "description": "Design skills for Claude by Lóránt: processes and rules from practice, packaged for anyone to use.",
+  "plugins": [
+    {
+      "name": "brandbook-builder",
+      "source": "./brandbook-builder",
+      "description": "A complete brand design process, from the first question to a finished brandbook.",
+      "category": "design",
+      "keywords": ["brand", "identity", "typography", "brandbook"]
+    }
+  ]
+}

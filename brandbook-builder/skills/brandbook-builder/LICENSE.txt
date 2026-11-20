@@ -1,0 +1,17 @@
+Brandbook Builder
+Copyright (c) 2026 Lóránt
+
+This work is licensed under the Creative Commons Attribution-NonCommercial
+4.0 International License (CC BY-NC 4.0).
+Summary: https://creativecommons.org/licenses/by-nc/4.0/
+Full legal code: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+Attribution: credit "Brandbook Builder by Lóránt", link to the original
+source, and indicate if you made changes.
+
+Additional permission (granted by the licensor, in addition to the license):
+Using this skill as a tool in your own work, including paid client projects,
+is permitted and is not treated as commercial use of the skill. Selling the
+skill or a modified version of it, or including it in a paid product or
+service, is not permitted. Works you create with the skill, such as a
+brandbook, are yours and are not covered by this license.

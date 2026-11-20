@@ -1,0 +1,10 @@
+{
+  "name": "brandbook-builder",
+  "version": "1.5.0",
+  "description": "A complete brand design process that ends in a brandbook. Starts by asking which materials already exist, then builds from scratch, completes a partial identity, or documents, refreshes or applies an existing brand. Strategy, logo, typography, colour, grid, imagery, applications, design tokens, decision gates and a decision log, across sessions and parallel workstreams. Works with or without Figma.",
+  "author": {
+    "name": "Lóránt"
+  },
+  "license": "CC-BY-NC-4.0",
+  "keywords": ["brand", "identity", "typography", "brandbook"]
+}
