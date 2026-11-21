@@ -6,6 +6,11 @@ Skills for Claude by Lóránt: design processes and rules from practice, package
 
 ### Brandbook Builder · v1.5.0
 
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="brandbook-builder/cover-paper.png">
+  <img src="brandbook-builder/cover.png" alt="Three design tools on the left, their lines meet and run into an open book." width="840">
+</picture>
+
 A complete brand design process, from the first question to a finished brandbook.
 
 Starts by asking what you already have, then builds the brand from scratch, completes a partial identity, or documents, refreshes or applies an existing brand. Ends in a brandbook, design tokens and a decision log.

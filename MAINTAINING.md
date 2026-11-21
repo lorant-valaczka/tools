@@ -12,7 +12,8 @@ Notes for adding tools and publishing releases.
 ├─ scripts/package.py                validates a tool and builds its release files
 ├─ <tool>/
 │  ├─ tool.json                      card data: the website and the README read from it
-│  ├─ cover.png                      card image
+│  ├─ cover.png                      card image, dark: 1680 × 1050 (16 : 10, the website's card ratio)
+│  ├─ cover-paper.png                the same on light, for GitHub's light theme (the README card swaps them)
 │  ├─ README.md, CHANGELOG.md, LICENSE
 │  ├─ .claude-plugin/plugin.json     name = folder name; the version lives here
 │  └─ skills/<skill>/SKILL.md (+ references/, LICENSE.txt)
@@ -26,7 +27,6 @@ Notes for adding tools and publishing releases.
 
 ## Still open
 
-- [ ] Add `cover.png` for each tool, in the same ratio as the cards on the website, then add it to the tool's card in `README.md`.
 - [ ] Add `<tool>/.claude-plugin/icon.png` for each tool: a square PNG, 512–2048 px, under 2 MB (SVG and WebP aren't accepted). `claude plugin validate` warns without it, and the plugin directory uses it as the listing icon.
 
 Before every push: no test runs, workspaces or private material in the folder.
@@ -36,9 +36,9 @@ Before every push: no test runs, workspaces or private material in the folder.
 1. Create a folder named after the tool (lowercase, hyphens).
 2. Add `.claude-plugin/plugin.json` with the same `name` as the folder, a `version`, `description`, `author`, `license` and `keywords`.
 3. Put each skill in `skills/<skill-name>/SKILL.md`. The skill's `name` matches its folder.
-4. Add `tool.json` (copy the shape from `brandbook-builder/tool.json`), `README.md`, `CHANGELOG.md`, `LICENSE`, `cover.png` and `.claude-plugin/icon.png`.
+4. Add `tool.json` (copy the shape from `brandbook-builder/tool.json`), `README.md`, `CHANGELOG.md`, `LICENSE`, `cover.png`, `cover-paper.png` and `.claude-plugin/icon.png`.
 5. Add an entry to `.claude-plugin/marketplace.json` with `"source": "./<tool>"`. Keep the version only in `plugin.json`.
-6. Add the tool's card to `README.md`.
+6. Add the tool's card to `README.md`, with its cover in a `<picture>` (copy the Brandbook Builder card).
 7. Release it (below).
 
 ## Releasing a version
